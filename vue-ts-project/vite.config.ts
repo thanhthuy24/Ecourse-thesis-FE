@@ -9,7 +9,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   plugins: [vue(), vueJsx(), vueDevTools()],
   server: {
-    port: 8081, // Đặt cổng bạn muốn, ví dụ: 3000
+    port: 8082, // Đặt cổng bạn muốn, ví dụ: 3000
   },
   resolve: {
     alias: {

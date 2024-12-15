@@ -4,7 +4,12 @@ const BASE_URL = 'http://localhost:8080/api/'
 
 export const endpoints = {
   login: '/user/login',
+
   categories: '/categories',
+  courses: '/courses',
+  lessons: '/lessons',
+
+  rating: '/rating',
 }
 
 export const authAPIs = () => {
